@@ -1,0 +1,64 @@
+[2025-06-11 19:07:32] 🔄 Iniciando script de predicción diaria...
+[2025-06-11 19:07:32] 📊 Predicción para BTC-USD
+[2025-06-11 19:07:32] 📈 Probabilidad de alza: 65.00%
+[2025-06-11 19:07:32] 📉 Probabilidad de baja: 35.00%
+[2025-06-11 19:07:32] 🔑 Token: 8126136444... (oculto)
+[2025-06-11 19:07:32] 🆔 Chat ID: 7934822888
+[2025-06-11 19:07:35] ✅ Notificación enviada por Telegram
+[2025-06-11 19:19:08] 🔄 Iniciando análisis diario...
+[2025-06-11 19:19:08] 🔍 Analizando: BTC-USD
+[2025-06-11 19:19:18] ✅ Notificación enviada por Telegram
+[2025-06-11 19:19:18] 🔍 Analizando: TSLA
+[2025-06-11 19:19:29] ✅ Notificación enviada por Telegram
+[2025-06-11 19:19:29] 🔍 Analizando: GC=F
+[2025-06-11 19:19:32] ✅ Notificación enviada por Telegram
+[2025-06-11 21:35:19] 🔄 Iniciando análisis diario...
+[2025-06-11 21:35:19] 🔍 Analizando: BTC-USD
+[2025-06-11 21:35:53] ✅ Notificación enviada por Telegram
+[2025-06-11 21:35:53] 🔍 Analizando: TSLA
+[2025-06-11 21:36:04] ✅ Notificación enviada por Telegram
+[2025-06-11 21:36:04] 🔍 Analizando: GC=F
+[2025-06-11 21:36:07] ✅ Notificación enviada por Telegram
+[2025-06-11 21:41:02] 🔄 Iniciando análisis diario...
+[2025-06-11 21:41:02] 🔍 Analizando: BTC-USD
+[2025-06-11 21:41:12] ✅ Notificación enviada por Telegram
+[2025-06-11 21:41:12] 🔍 Analizando: TSLA
+[2025-06-11 21:41:15] ✅ Notificación enviada por Telegram
+[2025-06-11 21:41:15] 🔍 Analizando: GC=F
+[2025-06-11 21:41:19] ✅ Notificación enviada por Telegram
+[2025-06-11 22:03:32] 🔍 Analizando: BTC-USD
+[2025-06-11 22:07:13] 🔄 Iniciando análisis diario...
+[2025-06-11 22:07:13] 🔍 Analizando: BTC-USD
+[2025-06-11 22:07:23] ✅ Notificación enviada por Telegram
+[2025-06-11 22:07:23] 🔍 Analizando: TSLA
+[2025-06-11 22:07:26] ✅ Notificación enviada por Telegram
+[2025-06-11 22:07:26] 🔍 Analizando: GC=F
+[2025-06-11 22:07:30] ✅ Notificación enviada por Telegram
+[2025-06-11 22:22:54] 🔍 Analizando: BTC-USD
+[2025-06-11 22:23:01] ❌ Error analizando probabilidad para BTC-USD: name 'UMBRAL_PROBABILIDAD' is not defined
+[2025-06-11 22:23:01] 🔍 Analizando: TSLA
+[2025-06-11 22:23:03] ❌ Error analizando probabilidad para TSLA: name 'UMBRAL_PROBABILIDAD' is not defined
+[2025-06-11 22:23:03] 🔍 Analizando: GC=F
+[2025-06-11 22:23:05] ❌ Error analizando probabilidad para GC=F: name 'UMBRAL_PROBABILIDAD' is not defined
+[2025-06-11 22:23:05] 🔄 Iniciando análisis diario...
+[2025-06-11 23:25:55] 🔄 Iniciando análisis diario...
+[2025-06-11 23:25:55] 🔍 Analizando: BTC-USD
+[2025-06-11 23:26:28] ✅ Notificación enviada por Telegram
+[2025-06-11 23:26:28] 🔍 Analizando: TSLA
+[2025-06-11 23:26:40] ✅ Notificación enviada por Telegram
+[2025-06-11 23:26:40] 🔍 Analizando: GC=F
+[2025-06-11 23:26:43] ✅ Notificación enviada por Telegram
+[2025-06-11 23:34:08] 🔄 Iniciando análisis diario...
+[2025-06-11 23:34:08] 🔍 Analizando: BTC-USD
+[2025-06-11 23:34:25] ✅ Notificación enviada por Telegram
+[2025-06-11 23:34:25] 🔍 Analizando: TSLA
+[2025-06-11 23:34:29] ✅ Notificación enviada por Telegram
+[2025-06-11 23:34:29] 🔍 Analizando: GC=F
+[2025-06-11 23:34:33] ✅ Notificación enviada por Telegram
+[2025-06-11 23:45:00] 🔄 Iniciando análisis diario...
+[2025-06-11 23:45:00] 🔍 Analizando: BTC-USD
+[2025-06-11 23:45:14] ✅ Notificación enviada por Telegram
+[2025-06-11 23:45:14] 🔍 Analizando: TSLA
+[2025-06-11 23:45:19] ✅ Notificación enviada por Telegram
+[2025-06-11 23:45:19] 🔍 Analizando: GC=F
+[2025-06-11 23:45:22] ✅ Notificación enviada por Telegram

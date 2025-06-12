@@ -1,0 +1,7 @@
+# config.py
+
+TICKERS = {
+    "Criptos": ["BTC-USD", "ETH-USD", "XRP-USD"],
+    "Acciones": ["AAPL", "TSLA", "NVDA", "MSFT"],
+    "Materias Primas": ["GC=F", "CL=F"]
+}

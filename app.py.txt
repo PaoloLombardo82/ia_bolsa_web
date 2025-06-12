@@ -1,0 +1,40 @@
+# app.py
+
+import streamlit as st
+import plotly.graph_objs as go
+from utils import descargar_datos, calcular_indicadores
+from model import entrenar_modelo, predecir
+from config import TICKERS
+
+st.set_page_config(page_title="📈 IA Bolsa", layout="wide")
+st.title("🤖 Analizador de Mercado con IA")
+
+categorias = list(TICKERS.keys())
+categoria_seleccionada = st.selectbox("Elige una categoría:", categorias)
+ticker_seleccionado = st.selectbox("Elige un activo:", TICKERS[categoria_seleccionada])
+
+with st.spinner(f"Descargando datos de {ticker_seleccionado}..."):
+    data, close_series = descargar_datos(ticker_seleccionado)
+    data = calcular_indicadores(data, close_series)
+    modelo, muestra = entrenar_modelo(data)
+    probabilidad = predecir(modelo, muestra)
+
+col1, col2 = st.columns(2)
+col1.metric("Probabilidad de alza", f"{probabilidad[1]:.2%}")
+col2.metric("Probabilidad de baja", f"{probabilidad[0]:.2%}")
+
+fig = go.Figure()
+
+fig.add_trace(go.Scatter(x=data.index, y=data['close'], name='Precio'))
+fig.add_trace(go.Scatter(x=data.index, y=data['SMA_20'], name='SMA 20'))
+fig.add_trace(go.Scatter(x=data.index, y=data['SMA_50'], name='SMA 50'))
+
+fig.update_layout(title="Precio y Medias Móviles", xaxis_title="Fecha", yaxis_title="Precio USD")
+st.plotly_chart(fig, use_container_width=True)
+
+fig_rsi = go.Figure()
+fig_rsi.add_trace(go.Scatter(x=data.index, y=data['RSI'], name='RSI'))
+fig_rsi.add_hline(y=30, line_dash="dash", line_color="green")
+fig_rsi.add_hline(y=70, line_dash="dash", line_color="red")
+fig_rsi.update_layout(title="RSI (Índice de Fuerza Relativa)", yaxis_range=[0, 100])
+st.plotly_chart(fig_rsi, use_container_width=True)
